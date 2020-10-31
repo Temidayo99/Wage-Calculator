@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Wage Calculator</title>
+</head>
+<body>
+	<div class="container">
+        <h2>SIDEHUSTLE WAGE CALCULATOR</h2>
+        
+        <h4>This app calculates wages at #1000/hr for hours worked and #200/hr for extra hours worked.</h4>
+
+		<label for="hours">Hours worked:</label><br>
+		<input type="number" name="hours" id="hoursWorked" placeholder="Enter hours worked">
+        <br>
+        <br>
+
+		<button type="button" id="calculate_btn" onclick="calculateWage()">Calculate Wage</button>
+
+		
+		<h3 id="wage_result"></h3>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>

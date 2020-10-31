@@ -1,0 +1,51 @@
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: gray;
+	color: #333;
+	font-family: "calibri", sans-serif;
+	font-weight: 400;
+	overflow-y: hidden;
+	text-transform: capitalize;
+}
+
+.container{
+	text-align: center;
+	padding: 2rem;
+	border-radius: 5px;
+	background-color: #fff;
+	flex: 0 0 50%;
+}
+label{
+    text-align: left;
+    font-weight: bold;
+}
+
+h2{
+    color: #d89156;
+}
+
+input {
+    outline: none;
+}
+
+#calculate_btn{
+	border: none;
+	color: #fff;
+	background: #d89156;
+	font-size: 1.3rem;
+	padding: 0.25rem 0.5rem;
+	border-radius: 7px;
+	cursor: pointer;
+	outline: none;
+}
+
+#calculate_btn:hover{
+	color: #ffd000;
+}
+
+#wage_result{
+	color: #d89156;
+}
